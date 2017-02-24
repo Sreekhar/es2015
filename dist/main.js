@@ -16,6 +16,11 @@ var Admin = function () {
         value: function authorize() {
             console.log("User authorized");
         }
+    }, {
+        key: "assignUsers",
+        value: function assignUsers() {
+            console.log("Assign someone");
+        }
     }]);
 
     return Admin;
