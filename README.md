@@ -1,2 +1,2 @@
 # es2015
-es2015 examples
+Find all the examples to the latest release of es6
