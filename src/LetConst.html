@@ -1,0 +1,39 @@
+<script>
+"use strict";
+
+function VariableTest() {
+    var testVar = 5;
+    if(true) {
+        var testVar = 10;
+        console.log(testVar);
+    }
+    console.log(testVar);
+}
+
+function LetVariableTest() {
+    let testVar = 5;
+    if(true) {
+        let testVar = 10;
+        console.log(testVar);
+    }
+    console.log(testVar);
+}
+
+//LetVariableTest();
+//VariableTest();
+
+for(let i=0; i<5; i++) {
+    //console.log(i);
+}
+
+//console.log(i); //returns an error in the code
+
+const animals = [];
+
+animals.push("zebra");
+animals.push("tiger");
+
+animals = "cat"; //gone --> error
+console.log(animals);
+
+</script>
